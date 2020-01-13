@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pawel.Cms.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Pawel.Cms.Api.Controllers.BooksController">
+            <summary>
+             Books Controller 
+            </summary>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.BooksController.#ctor(Pawel.Cms.Domain.Services.Interfaces.IBooksService)">
+            <summary>
+            Books Controller ctor
+            </summary>
+            <param name="booksService"></param>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.BooksController.Get">
+            <summary>
+            Get All books
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.BooksController.Get(System.Int32)">
+            <summary>
+             Metoda zwracajaca książke o podanym ID
+            </summary>
+            <param name="id"></param>
+            <returns>BookDTO</returns>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.BooksController.Post(Pawel.Cms.Common.DTOs.BookDTO)">
+            <summary>
+            POST api/books
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.BooksController.Put(Pawel.Cms.Common.DTOs.BookDTO)">
+            <summary>
+            PUT api/books/5
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.BooksController.Delete(System.Int32)">
+            <summary>
+            DELETE api/books/5
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:Pawel.Cms.Api.Controllers.UsersController">
+            <summary>
+             Users Controller 
+            </summary>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.UsersController.#ctor(Pawel.Cms.Domain.Services.Interfaces.IEmailService)">
+            <summary>
+            jaki opis
+            </summary>
+            <param name="emailService"></param>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.UsersController.Post(Pawel.Cms.Common.DTOs.EmailDTO)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.UsersController.SendActivationLink(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Pawel.Cms.Api.Controllers.UsersController.ActivationUser(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>

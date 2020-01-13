@@ -1,0 +1,19 @@
+﻿@model Pawel.Cms.Common.DTOs.BookDTO
+
+
+
+
+<p>dane z api: </p>
+
+@if (Model != null)
+{
+    <ul>
+        <li>dupa: @Model.Author</li>
+        <li>title: @Model.Title</li>
+    </ul>
+}
+else
+{
+    <p>@ViewBag.haha</p>
+}
+
